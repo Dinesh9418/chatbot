@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
+import Home from "./component/Home";
 
 function App() {
   return (
     <div>
-      <div className="App">chatbot Project</div>
+      <Home />
     </div>
   );
 }

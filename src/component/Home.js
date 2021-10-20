@@ -1,10 +1,10 @@
 import React from "react";
-import "../component/styles/Home.css";
+import SignUp from "./Auth/SignUp";
 
 function Home() {
   return (
     <div>
-      <div className="first-div"> Home Page</div>
+      <SignUp />
     </div>
   );
 }
